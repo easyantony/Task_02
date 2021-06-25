@@ -47,7 +47,7 @@ public class Task08 {
 		for (double x = a; x <= b; x = x + h) {
 		fx = 2 * Math.tan(x / 2) + 1;
 		System.out.printf("|%4.1f|%4.1f|\n", x, fx);
-	    }
+	        }
 	    
 	    
 		System.out.println(" _________ ");
