@@ -11,12 +11,12 @@ public class Task09 {
 		
 		if (x <= -3) {
 			fx = 9;
-			  System.out.print("x = " + x + ", значит fx = " + fx);
+			  System.out.print("x = " + x + ", Р·РЅР°С‡РёС‚ fx = " + fx);
 		}if (x > 3) {
 			fx = (1/ (Math.pow(x,2) + 1));
-			  System.out.print("x = " + x + ", значит fx = " + fx);
+			  System.out.print("x = " + x + ", Р·РЅР°С‡РёС‚ fx = " + fx);
 		}if (x < 3 & x > -3) {
-			  System.out.print("Простите, число не попало в диапазон");
+			  System.out.print("РџСЂРѕСЃС‚РёС‚Рµ, С‡РёСЃР»Рѕ РЅРµ РїРѕРїР°Р»Рѕ РІ РґРёР°РїР°Р·РѕРЅ");
 		}
 			
 
