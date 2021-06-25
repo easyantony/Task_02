@@ -11,10 +11,10 @@ public class Task05 {
 		
 		answer = ((b + Math.sqrt((b*b) + (4*a*c))) / (2*a)) - ((Math.pow(a, 3)*c) + b);
 		
-		System.out.println("à = " +a+ "\r\n"
-						  +"b = " +b+ "\r\n"
-						  +"c = " +c+ "\r\n"
-						  +"answer = " +answer);
+		System.out.println("Ã  = " +a+ "\r\n"
+				  +"b = " +b+ "\r\n"
+				  +"c = " +c+ "\r\n"
+				  +"answer = " +answer);
 		
 		
 
