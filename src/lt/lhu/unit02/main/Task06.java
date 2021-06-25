@@ -13,10 +13,10 @@ public class Task06 {
 	 	y = ((a/c) * (b/d)) - ((a*b - c) / (c*d));
 	 
 	 	System.out.println("a = "+a+"\r\n"
-	 					  +"b = "+b+"\r\n"
-	 			          +"c = "+c+"\r\n"
-	 			          +"d = "+d+"\r\n"
-	 			          +"y = "+y+"\r\n");
+	 			  +"b = "+b+"\r\n"
+	 			  +"c = "+c+"\r\n"
+	 			  +"d = "+d+"\r\n"
+	 			  +"y = "+y+"\r\n");
 	}
 
 }
