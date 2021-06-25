@@ -13,10 +13,10 @@ public class Task02 {
 		
 		S = (a*b) / 2;
 		
-		System.out.println("Сторона треугольника а = " +a);
-		System.out.println("Сторона треугольника b = " +b);
-		System.out.println("Гипотенуза треугольника = " +gip);
-		System.out.println("Площадь треугольника = " +S);
+		System.out.println("РЎС‚РѕСЂРѕРЅР° С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° Р° = " +a);
+		System.out.println("РЎС‚РѕСЂРѕРЅР° С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° b = " +b);
+		System.out.println("Р“РёРїРѕС‚РµРЅСѓР·Р° С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° = " +gip);
+		System.out.println("РџР»РѕС‰Р°РґСЊ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° = " +S);
 		
 		
 		
