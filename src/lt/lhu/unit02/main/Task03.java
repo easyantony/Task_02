@@ -35,7 +35,7 @@ public class Task03 {
 		while(!sc.hasNextDouble()){
 			sc.nextLine();
 			System.out.println("Вы ввели не число.");
-			System.out.print("Введите переменную a: ");
+			System.out.print("Введите переменную c: ");
 		}
 		c = sc.nextDouble();
 		
