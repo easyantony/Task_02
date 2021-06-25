@@ -15,33 +15,33 @@ public class Task03 {
 		
 		sc = new Scanner(System.in);
 		
-		System.out.print("Введите переменную a: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РїРµСЂРµРјРµРЅРЅСѓСЋ a: ");
 		while(!sc.hasNextDouble()){
 			sc.nextLine();
-			System.out.println("Вы ввели не число.");
-			System.out.print("Введите переменную a: ");
+			System.out.println("Р’С‹ РІРІРµР»Рё РЅРµ С‡РёСЃР»Рѕ.");
+			System.out.print("Р’РІРµРґРёС‚Рµ РїРµСЂРµРјРµРЅРЅСѓСЋ a: ");
 		}
 		a = sc.nextDouble();
 		
-		System.out.print("Введите переменную b: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РїРµСЂРµРјРµРЅРЅСѓСЋ b: ");
 		while(!sc.hasNextDouble()){
 			sc.nextLine();
-			System.out.println("Вы ввели не число.");
-			System.out.print("Введите переменную b: ");
+			System.out.println("Р’С‹ РІРІРµР»Рё РЅРµ С‡РёСЃР»Рѕ.");
+			System.out.print("Р’РІРµРґРёС‚Рµ РїРµСЂРµРјРµРЅРЅСѓСЋ b: ");
 		}
 		b = sc.nextDouble();
 		
-		System.out.print("Введите переменную c: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РїРµСЂРµРјРµРЅРЅСѓСЋ c: ");
 		while(!sc.hasNextDouble()){
 			sc.nextLine();
-			System.out.println("Вы ввели не число.");
-			System.out.print("Введите переменную a: ");
+			System.out.println("Р’С‹ РІРІРµР»Рё РЅРµ С‡РёСЃР»Рѕ.");
+			System.out.print("Р’РІРµРґРёС‚Рµ РїРµСЂРµРјРµРЅРЅСѓСЋ a: ");
 		}
 		c = sc.nextDouble();
 		
 		form = ((a*a) - ((b-c)*(b-c))) + (Math.log(b*b+1));
 		
-		System.out.print("Значение формулы с данными числами = " + form);
+		System.out.print("Р—РЅР°С‡РµРЅРёРµ С„РѕСЂРјСѓР»С‹ СЃ РґР°РЅРЅС‹РјРё С‡РёСЃР»Р°РјРё = " + form);
 
 	}
 
