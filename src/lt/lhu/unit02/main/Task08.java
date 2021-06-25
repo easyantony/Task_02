@@ -14,27 +14,27 @@ public class Task08 {
 		double fx;
 		
 		
-		System.out.print("Введите значение отрезка a:");
+		System.out.print("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ РѕС‚СЂРµР·РєР° a:");
 		while(!sc.hasNextDouble()){
 			sc.nextLine();
-			System.out.println("Вы ввели не число.");
-			System.out.print("Введите значение отрезка a: ");
+			System.out.println("Р’С‹ РІРІРµР»Рё РЅРµ С‡РёСЃР»Рѕ.");
+			System.out.print("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ РѕС‚СЂРµР·РєР° a: ");
 		}
 		a = sc.nextDouble();
 		
-		System.out.print("Введите значение отрезка b:");
+		System.out.print("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ РѕС‚СЂРµР·РєР° b:");
 		while(!sc.hasNextDouble()){
 			sc.nextLine();
-			System.out.println("Вы ввели не число.");
-			System.out.print("Введите значение отрезка b: ");
+			System.out.println("Р’С‹ РІРІРµР»Рё РЅРµ С‡РёСЃР»Рѕ.");
+			System.out.print("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ РѕС‚СЂРµР·РєР° b: ");
 		}
 		b = sc.nextDouble();
 		
-		System.out.print("Введите значение   шага  h:");
+		System.out.print("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ   С€Р°РіР°  h:");
 		while(!sc.hasNextDouble()){
 			sc.nextLine();
-			System.out.println("Вы ввели не число.");
-			System.out.print("Введите значение   шага  h: ");
+			System.out.println("Р’С‹ РІРІРµР»Рё РЅРµ С‡РёСЃР»Рѕ.");
+			System.out.print("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ   С€Р°РіР°  h: ");
 		}
 		h = sc.nextDouble();
 		
